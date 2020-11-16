@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nysl.css">
+    <title>Acerca de NYSL</title>
+    <style> 
+    hr {
+        clear: both;
+    }
+    img {
+        float: left;
+    }
+    </style>
+</head>
+<body>
+<div class="image-fondo cabecera"><h1> Northside Youth Soccer League </h1>
+</div>
+<div id=menu>
+    <button class="home"><a href="home.html">Home</a></button>
+    <button class="about"><a href="about.html">About</a></button>
+    <button class="contact"><a href="contact.html">Contact</a></button>
+    <button class="reglas"><a href="reglas.html">Reglas</a></button>
+    <button class="información"><a href="info.html">Información</a></button>
+    <button class="formulario"><a href="formulario.html">Formulario</a></button>
+</div>
+<hr style="clear: both;">
+<img class="logo" src="images/nysl_logo.png" title="Logotipo de NYSL" alt="logo" width="129" height="122">
+<br>
+<br>
+<br>
+<div class="centrado"><h2> Formulario de inscripción </h2></div>
+<div class="grid-container">
+<form action="API/contactanos." method="post">
+<div class="grid-item">Nombre del jugador: 
+<input value="Ingresa tu nombre" type="text">
+</div>
+<div class="grid-item">Apellido: 
+<input value="Ingresa tu apellido" type="text">
+</div>
+<div class="grid-item">Dirección:
+<input value="Dirección" type="text">
+</div>
+<div class="grid-item">Ciudad: 
+<input value="Ciudad" type="text">
+</div>    
+<div class="grid-item">Código Postal:
+<input value="Código Postal" type="text">
+</div>   
+<div class="grid-item">Fecha de nacimiento:
+<input value="Ingresa su F. Nac." type="date">
+</div>   
+<div class="grid-item"><b>Género:</b>
+<input type="radio" name="hm" value="h"> Hombre
+<input type="radio" name="hm" value="m"> Mujer
+<input type="radio" name="hm" value="m"> Otro
+</div> 
+<hr>
+<div class="grid-item"> <b>Grado:</b>
+<input type="radio" name="hm" value="h"> Preescolar
+<input type="radio" name="hm" value="m"> 1°
+<input type="radio" name="hm" value="m"> 2°
+<input type="radio" name="hm" value="m"> 3°
+<input type="radio" name="hm" value="m"> 4°
+<input type="radio" name="hm" value="m"> 5°
+</div> 
+<hr>
+<div class="grid-item"> <b>¿De qué escuela vives más cerca?</b>
+<p>Escuela más cercana:</p>
+<input type="radio" name="hm" value="h"> AJ Katzenmaier
+<input type="radio" name="hm" value="m"> Greenbay
+<input type="radio" name="hm" value="m"> Howard A Yeager
+<input type="radio" name="hm" value="h"> Marjorie P Hart
+<input type="radio" name="hm" value="m"> North Elementary
+<input type="radio" name="hm" value="m"> South Elementary
+</div> 
+<hr>
+<div class="grid-item"><b>¿Qué posición(es) juegas normalmente? (marque todas las que correspondan)</b>
+<input type="checkbox" name="hm" value="h"> Delantero
+<input type="checkbox" name="hm" value="m"> Portero
+<input type="checkbox" name="hm" value="m"> Mediocampo
+<input type="checkbox" name="hm" value="h"> Defensa
+</div> 
+<hr>
+<div class="grid-item"><b>Tamaño uniforme:</b>
+<input type="radio" name="hm" value="h"> Niño P
+<input type="radio" name="hm" value="m"> Niño M
+<input type="radio" name="hm" value="m"> Niño G
+<input type="radio" name="hm" value="h"> Pequeño
+<input type="radio" name="hm" value="m"> Mediano
+<input type="radio" name="hm" value="m"> Grande
+<input type="radio" name="hm" value="m"> Extra-Grande
+</div> 
+<br>
+<hr>
+<div class="grid-item"><b>Permiso para jugar</b> 
+<br>
+<br>
+<p>
+Yo, el padre o tutor del solicitante de registro menor, estoy de acuerdo en que el solicitante de registro y
+yo acataremos todas las reglas de la Northside Youth Soccer League (NYSL). Al reconocer la posibilidad
+de lesiones físicas asociadas al fútbol y en consideración a la"Liga" que acepta al solicitante de registro
+para sus programas y actividades de fútbol, Por la presente libero y descargo a NYSL, sus empleados y
+personal asociado y voluntarios, incluyendo las instalaciones utilizadas para prácticas y juegos, contra
+cualquier reclamo por o en nombre del solicitante de registro como resultado de la participación del
+solicitante del programa a o en el transporte desde o hacia las actividades patrocinadas por NYSL.
+</p>  
+<p>
+Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar a continuación, reconozco
+que he leído la política de cancelación y acepto sus términos.
+</p>
+<br>
+<p>Firma Padre/Tutor: <input value="Firma" type="text"></p>
+<p>Fecha: <input value="Fecha" type="date"></p>
+</div>
+<div class="grid-item">
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</div> 
+</form>
+</div>
+</body>
+</html>
